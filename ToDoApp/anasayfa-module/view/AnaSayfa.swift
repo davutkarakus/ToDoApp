@@ -57,7 +57,7 @@ class AnaSayfa: UIViewController {
         self.searchBar.backgroundImage = UIImage()
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = UIColor(named: "anaRenk")
-        appearance.largeTitleTextAttributes = [.foregroundColor:UIColor(named: "yaziRenk")!]
+        appearance.largeTitleTextAttributes = [.foregroundColor:UIColor(named: "yaziRenk")!,.font:UIFont(name: "BubblegumSans-Regular", size: 30)!]
         
         navigationController?.navigationBar.barStyle = .black
         navigationController?.navigationBar.standardAppearance = appearance

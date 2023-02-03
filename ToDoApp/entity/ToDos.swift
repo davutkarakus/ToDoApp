@@ -8,6 +8,7 @@
 import Foundation
 
 class ToDos {
+    
     var todo_id:Int?
     var todo_description:String?
     var todo_date:String?

@@ -25,6 +25,7 @@
 		E81BF190298D06E50024B32A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E81BF189298D06E20024B32A /* FMResultSet.m */; };
 		E81BF191298D06E50024B32A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E81BF18B298D06E40024B32A /* FMDatabaseQueue.m */; };
 		E81BF193298D07790024B32A /* todo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E81BF192298D07780024B32A /* todo.sqlite */; };
+		E81BF198298D1FA00024B32A /* BubblegumSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E81BF197298D1F9F0024B32A /* BubblegumSans-Regular.ttf */; };
 		E8237FF3298A5B3F004C5461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8237FF2298A5B3F004C5461 /* AppDelegate.swift */; };
 		E8237FF5298A5B3F004C5461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8237FF4298A5B3F004C5461 /* SceneDelegate.swift */; };
 		E8237FF7298A5B3F004C5461 /* AnaSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8237FF6298A5B3F004C5461 /* AnaSayfa.swift */; };
@@ -64,6 +65,7 @@
 		E81BF18B298D06E40024B32A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		E81BF18C298D06E40024B32A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		E81BF192298D07780024B32A /* todo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todo.sqlite; sourceTree = "<group>"; };
+		E81BF197298D1F9F0024B32A /* BubblegumSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BubblegumSans-Regular.ttf"; sourceTree = "<group>"; };
 		E8237FEF298A5B3F004C5461 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8237FF2298A5B3F004C5461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8237FF4298A5B3F004C5461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -270,6 +272,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E81BF194298D1DDB0024B32A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E81BF197298D1F9F0024B32A /* BubblegumSans-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		E8237FE6298A5B3F004C5461 = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +300,7 @@
 		E8237FF1298A5B3F004C5461 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E81BF194298D1DDB0024B32A /* fonts */,
 				E8237FF2298A5B3F004C5461 /* AppDelegate.swift */,
 				E8237FF4298A5B3F004C5461 /* SceneDelegate.swift */,
 				E810BC8F298BD50B00AC51EE /* entity */,
@@ -376,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81BF198298D1FA00024B32A /* BubblegumSans-Regular.ttf in Resources */,
 				E8237FFF298A5B41004C5461 /* LaunchScreen.storyboard in Resources */,
 				E81BF193298D07790024B32A /* todo.sqlite in Resources */,
 				E8237FFC298A5B41004C5461 /* Assets.xcassets in Resources */,
