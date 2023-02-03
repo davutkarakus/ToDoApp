@@ -20,6 +20,7 @@ class AnaSayfa: UIViewController {
         AllDesign()
         
         AnaSayfaRouter.createModule(ref: self)
+        
         searchBar.delegate = self
         toDoTableView.backgroundColor = UIColor.clear
         toDoTableView.delegate = self
